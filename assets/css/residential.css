@@ -1,0 +1,159 @@
+@font-face{
+    src: url(../font/Barlow/Barlow-Light.ttf);
+    font-family: barlow;
+}
+@font-face{
+    src: url(../font/fira-sans/FiraSans-Light.ttf);
+    font-family: Fira Sans;
+}
+@font-face{
+    src: url(../font/Open_Sans/OpenSans-Light.ttf);
+    font-family:Open Sans;
+}
+#resident-bg{
+    background: url(../images/resident.png) no-repeat;
+    background-size: cover;
+    
+    /*position: absolute;*/
+}
+#resident-bg .layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 0px !important;
+    color: rgb(255,255,255) !important;
+}
+#resident-bg .form-control{
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.5;
+    border-radius: 120px;
+}
+#resident-bg i{
+    background: #FFFFFF;
+    opacity: 0.9;
+    margin-left: -57px;
+    border-radius: 0px 63px 58px 0px;
+    color: rgba(0, 0, 0, 1);
+    padding: 11px 18px
+}
+#resident-bg h6{
+    font-family: Industry-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: justify;
+    color: #474747;
+}
+/**************************services******************/
+#services h1{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 92px;
+    color: #686868;
+    text-decoration: 4px underline #07E3DB;
+}
+#services h3{
+    font-family: Industry-Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #030303;
+}
+#services p{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+color: #6C6C6C;
+}
+#services ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#services li{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #000000;
+}
+#services li::before{
+    content:"";
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border: 3px solid #474747;
+    display: inline-block;
+}
+/***************************project**********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

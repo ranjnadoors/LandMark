@@ -1,0 +1,274 @@
+@font-face{
+    src: url(../font/Barlow/Barlow-Light.ttf);
+    font-family: barlow;
+}
+@font-face{
+    src: url(../font/fira-sans/FiraSans-Light.ttf);
+    font-family: Fira Sans;
+}
+@font-face{
+    src: url(../font/Open_Sans/OpenSans-Light.ttf);
+    font-family:Open Sans;
+}
+#about-bg{
+    background: url(../images/about-images/about-bg.png) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    /*position: absolute;*/
+}
+#about-bg .layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 0px !important;
+    color: rgb(255,255,255) !important;
+}
+#about-bg .form-control{
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.5;
+    border-radius: 120px;
+}
+#about-bg i{
+    background: #FFFFFF;
+    opacity: 0.9;
+    margin-left: -57px;
+    border-radius: 0px 63px 58px 0px;
+    color: rgba(0, 0, 0, 1);
+    padding: 11px 18px
+}
+#about-bg h6{
+    font-family: Industry-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+#who-we-are h2{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 92px;
+    color: #686868;
+}
+#who-we-are h3{
+    font-family: Barlow;
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 48px;
+color: #000000;
+text-decoration: 4px underline #07E3DB;
+}
+#who-we-are p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    color: #474747;
+}
+#who-we-are .bg{
+    background: url(../images/about-images/Rectangle\ 469.png) no-repeat;
+    background-size: 60% 85%;
+    background-position: right 50%;
+}
+#who-we-are .rating-bg{
+    background: url(../images/about-images/served.png) no-repeat !important;
+    background-size: 100% 100%;
+}
+#who-we-are .rating-bg-1{
+    background: url(../images/about-images/project.png) no-repeat !important;
+    background-size: 100% 100%;
+}
+#who-we-are .rating-bg-2{
+    background: url(../images/about-images/years.png) no-repeat !important;
+    background-size: 100% 100%;
+}
+#who-we-are h5{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    color: #787878;
+}
+#who-we-are h4{
+    font-family: Industry-Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #787878;
+}
+/**************************shipping*********************/
+#shipping{
+    background: url(../images/about-images/shipping.png) no-repeat;
+    background-size: cover;
+}
+#shipping .layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#shipping h1{
+font-family: Industry-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 92px;
+color: #FFFFFF;
+}
+#shipping p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+/*************************************foundation********************/
+#foundation{
+background: #6c6c6c;
+}
+#foundation h2{
+    font-family: Industry-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 94px;
+    color: #DCDCDC;
+}
+#foundation h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-decoration: 5px underline #07E3DB;
+}
+#foundation p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 18px;
+  }
+  
+  #foundation h6{
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+color: #FFFFFF;  
+}
+#foundation h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+#foundation .bg{
+    background-color: #474747;
+    text-align: center;
+}
+/*************************footer**********************/
+#footer{
+    background: #000;
+} 
+#footer h6{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.border-bottom{
+    border-bottom: 2px solid #fff !important;
+    padding: 10px 0px;
+}
+#footer p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+#footer h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    #footer ul{
+        list-style: none;
+        
+    }
+    #footer li{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    #footer li::before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #07E3DB;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    #footer .call-us{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    #footer h3{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    #footer .icon-bg{
+        background-color: white;
+        border-radius: 1px;
+    }

@@ -1,5 +1,5 @@
 @font-face{
-    src: url(../font/Barlow/Barlow-Bold.ttf);
+    src: url(../font/Barlow/Barlow-Light.ttf);
     font-family: barlow;
 }
 @font-face{
@@ -219,7 +219,7 @@ color: #787878;
  border-left:3px solid #07E3DB !important;   
 }
 .animate-btn-2{
-    font-family: Open Sans;
+font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -261,3 +261,258 @@ z-index: 0;
     color: #07E3DB;
    z-index: 99;
 }
+#our-work h2{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 92px;
+    color: #686868;
+}
+#our-work h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+    color: #000000;
+    width: 117px;
+    border-bottom: 4px solid #07E3DB;
+}
+#our-work h5{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+#our-work h6{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+}
+.animate-btn-3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    background-color: #07E3DB;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #07E3DB;
+    transition: color .5s;
+    z-index: 0;
+    }
+    .animate-btn-3:before{
+        content:"";
+        background: #fff;
+        width: 500%;
+        height: 590%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        transform: translate(-574px) rotate(45deg);
+        transition: all .5s ease-out;
+        z-index: 0;
+    }
+    .animate-btn-3:hover:before{
+        transform: translate(-294px) rotate(45deg);
+        background: #fff;
+        color: #07E3DB;
+       z-index: -5;
+        
+        }
+        .animate-btn-3:hover:before{
+            z-index: -1;
+            
+         }
+    .animate-btn-3:hover{
+        color: #07E3DB;
+       z-index: 99;
+    }
+    /*******************************latest news*********************************/
+    #latest-news{
+        background: rgba(226, 226, 226, 0.3);
+        
+    }
+    #latest-news h1{
+        font-family: Industry-Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 92px;
+        color: rgba(104, 104, 104, 1);
+    }
+    #latest-news h6{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        color: #000000;
+        text-decoration: underline #07E3DB;
+        text-align: center;
+    }
+    #latest-news .card{
+        background: transparent;
+        border: 0px;
+        transition: all 0.5;
+    }
+    #latest-news .card:hover{
+background: white;
+
+    }
+    #latest-news .card-title{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        color: #181818;
+    }
+    #latest-news .card-text{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 29px;
+        color: #5C5C5C;
+    }
+    #latest-news a{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 29px;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+    .animate-btn-4{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 26px;
+        color: #07E3DB;
+        width: 200px;
+        height: 50px;
+        background-color: #fff;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid #07E3DB;
+        transition: color .5s;
+        z-index: 0;
+        }
+        .animate-btn-4:before{
+            content:"";
+            background: #07E3DB;
+            width: 500%;
+            height: 590%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            transform: translate(-574px) rotate(45deg);
+            transition: all .5s ease-out;
+            z-index: 0;
+        }
+        .animate-btn-4:hover:before{
+            transform: translate(-294px) rotate(45deg);
+            background: #07E3DB;
+            color: #fff;
+           z-index: -5;
+            
+            }
+            .animate-btn-4:hover:before{
+                z-index: -1;
+                
+             }
+        .animate-btn-4:hover{
+            color: #fff;
+           z-index: 99;
+        }
+/*************************footer**********************/
+#footer{
+    background: #000;
+} 
+#footer h6{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.border-bottom{
+    border-bottom: 2px solid #fff !important;
+    padding: 10px 0px;
+}
+#footer p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+#footer h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    #footer ul{
+        list-style: none;
+        
+    }
+    #footer li{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    #footer li::before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #07E3DB;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    #footer .call-us{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    #footer h3{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    #footer .icon-bg{
+        background-color: white;
+        border-radius: 1px;
+    }
