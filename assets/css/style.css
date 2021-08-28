@@ -516,3 +516,43 @@ color: #FFFFFF;
         background-color: white;
         border-radius: 1px;
     }
+    #footer .fa-arrow-up{
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 18px;
+        color: #000;
+    }
+    #footer .up-arrow{
+        justify-content: flex-end;
+        margin-left: 47px;
+        margin-top: -78px;
+    }
+    #footer .border-right-1{
+        border-right: 1px solid #dee2e6;
+    }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #home-bg i{
+        margin-left: -52px;
+}
+#who-we-are h2, #shipping h1,#foundation h2,#project h3,#schedule h2 {
+font-size: 40px;
+}
+.border-right-1{
+    border-right: 0px !important;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

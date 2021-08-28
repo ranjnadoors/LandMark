@@ -10,13 +10,13 @@
     src: url(../font/Open_Sans/OpenSans-Light.ttf);
     font-family:Open Sans;
 }
-#about-bg{
-    background: url(../images/about-images/about-bg.png) no-repeat;
+#resident-bg{
+    background: url(../images/retail\ \(1\).png) no-repeat;
     background-size: cover;
-   
+    
     /*position: absolute;*/
 }
-#about-bg .layer{
+#resident-bg .layer{
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     top: 0;
@@ -30,12 +30,12 @@
     border: 0px !important;
     color: rgb(255,255,255) !important;
 }
-#about-bg .form-control{
+#resident-bg .form-control{
     background: rgba(255, 255, 255, 1);
     opacity: 0.5;
     border-radius: 120px;
 }
-#about-bg i{
+#resident-bg i{
     background: #FFFFFF;
     opacity: 0.9;
     margin-left: -57px;
@@ -43,7 +43,7 @@
     color: rgba(0, 0, 0, 1);
     padding: 11px 18px
 }
-#about-bg h6{
+#resident-bg h6{
     font-family: Industry-Medium;
     font-style: normal;
     font-weight: normal;
@@ -51,153 +51,155 @@
     line-height: 64px;
     color: #FFFFFF;
 }
-#who-we-are h2{
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: justify;
+    color: #474747;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+  }
+  #home h1{
+    font-family: Industry-Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;
+    }
+    #home h2{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        }
+/**************************services******************/
+#services h1{
     font-family: Industry-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 70px;
     line-height: 92px;
     color: #686868;
+    text-decoration: 4px underline #07E3DB;
 }
-#who-we-are h3{
-    font-family: Barlow;
+#services h3{
+    font-family: Industry-Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #030303;
+}
+#services p{
+    font-family: Open Sans;
 font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 48px;
-color: #000000;
-text-decoration: 4px underline #07E3DB;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+color: #6C6C6C;
 }
-#who-we-are p{
+#services ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#services li{
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: justify;
-    color: #474747;
+    font-size: 14px;
+    line-height: 32px;
+    color: #000000;
 }
-#who-we-are .bg{
-    background: url(../images/about-images/Rectangle\ 469.png) no-repeat;
-    background-size: 60% 85%;
-    background-position: right 50%;
+#services li::before{
+    content:"";
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border: 3px solid #474747;
+    display: inline-block;
 }
-#who-we-are .rating-bg{
-    background: url(../images/about-images/served.png) no-repeat !important;
-    background-size: 100% 100%;
+/***************************project**********************/
+#project{
+    background: #000000;
 }
-#who-we-are .rating-bg-1{
-    background: url(../images/about-images/project.png) no-repeat !important;
-    background-size: 100% 100%;
-}
-#who-we-are .rating-bg-2{
-    background: url(../images/about-images/years.png) no-repeat !important;
-    background-size: 100% 100%;
-}
-#who-we-are h5{
+#project h2{
     font-family: Industry-Bold;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 53px;
-    color: #787878;
-}
-#who-we-are h4{
-    font-family: Industry-Book;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 29px;
-    text-align: center;
-    color: #787878;
-}
-/**************************shipping*********************/
-#shipping{
-    background: url(../images/about-images/shipping.png) no-repeat;
-    background-size: cover;
-}
-#shipping .layer{
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-#shipping h1{
-font-family: Industry-Bold;
-font-style: normal;
-font-weight: bold;
-font-size: 70px;
-line-height: 92px;
-color: #FFFFFF;
-}
-#shipping p{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: justify;
-    color: #FFFFFF;
-}
-/*************************************foundation********************/
-#foundation{
-background: #6c6c6c;
-}
-#foundation h2{
-    font-family: Industry-Black;
-    font-style: normal;
-    font-weight: 900;
     font-size: 70px;
-    line-height: 94px;
-    color: #DCDCDC;
+    
+    color: #EDEDED;
 }
-#foundation h3{
+#project h3{
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #FFFFFF;
-    text-decoration: 5px underline #07E3DB;
+    text-decoration:  5px underline #07E3DB;
 }
-#foundation p{
+/*************************************schedule***********************/
+#schedule{
+    background: url(../images/image\ 31.png) no-repeat;
+    background-size: cover;
+}
+#schedule h2{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+   
+    color: #686868;
+}
+#schedule h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #686868;
+    text-decoration:  5px underline #07E3DB;
+}
+#schedule h1{
+    font-family: Industry-Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+#schedule .addition{
+    background: #07E3DB;
+}
+#schedule p{
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 31px;
     text-align: justify;
-    color: #FFFFFF;
+    color: #474747;
 }
-/* Top left text */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 18px;
-  }
-  
-  #foundation h6{
-    font-family: Barlow;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 35px;
-color: #FFFFFF;  
+#schedule .stop{
+    background: #EAEAEA;
 }
-#foundation h1{
-    font-family: Open Sans;
+#schedule h4{
+    font-family: Industry-Demi;
     font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: justify;
-    color: #FFFFFF;
-}
-#foundation .bg{
-    background-color: #474747;
-    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
 }
 /*************************footer**********************/
 #footer{
@@ -274,6 +276,21 @@ color: #FFFFFF;
     }
     #footer .fa-arrow-up{
         background: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: #000;
+    }
+
+    #footer .fa-arrow-up{
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: #000;
+    }
+    #footer .fa-arrow-up{
+        background: #fff;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -291,10 +308,10 @@ color: #FFFFFF;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #about-bg i{
+    #resident-bg i{
         margin-left: -52px;
 }
-#home h5, #our-work h2,#latest-news h1{
+#services h1, #project h2,#schedule h2{
 font-size: 40px;
 }
 .border-right-1{
@@ -312,3 +329,50 @@ font-size: 40px;
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

@@ -60,6 +60,7 @@ p{
     text-align: justify;
     color: #474747;
 }
+
 /**************************services******************/
 #services h1{
     font-family: Industry-Bold;
@@ -107,18 +108,199 @@ color: #6C6C6C;
     display: inline-block;
 }
 /***************************project**********************/
+#project{
+    background: #000000;
+}
+#project h2{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    
+    color: #EDEDED;
+}
+#project h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-decoration:  5px underline #07E3DB;
+}
+/*************************************schedule***********************/
+#schedule{
+    background: url(../images/image\ 31.png) no-repeat;
+    background-size: cover;
+}
+#schedule h2{
+    font-family: Industry-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+   
+    color: #686868;
+}
+#schedule h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #686868;
+    text-decoration:  5px underline #07E3DB;
+}
+#schedule h1{
+    font-family: Industry-Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+#schedule .addition{
+    background: #07E3DB;
+}
+#schedule p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: justify;
+    color: #474747;
+}
+#schedule .stop{
+    background: #EAEAEA;
+}
+#schedule h4{
+    font-family: Industry-Demi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+/*************************footer**********************/
+#footer{
+    background: #000;
+} 
+#footer h6{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.border-bottom{
+    border-bottom: 2px solid #fff !important;
+    padding: 10px 0px;
+}
+#footer p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+#footer h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    #footer ul{
+        list-style: none;
+        
+    }
+    #footer li{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    #footer li::before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #07E3DB;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    #footer .call-us{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    #footer h3{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    #footer .icon-bg{
+        background-color: white;
+        border-radius: 1px;
+    }
+    #footer .fa-arrow-up{
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: #000;
+    }
+    #footer .fa-arrow-up{
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 18px;
+        color: #000;
+    }
+    #footer .up-arrow{
+        justify-content: flex-end;
+        margin-left: 47px;
+        margin-top: -78px;
+    }
+    #footer .border-right-1{
+        border-right: 1px solid #dee2e6;
+    }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #resident-bg i{
+        margin-left: -52px;
+}
+#services h1, #project h2,#schedule h2{
+font-size: 40px;
+}
+.border-right-1{
+    border-right: 0px !important;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
 
-
-
-
-
-
-
-
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 
 
 
