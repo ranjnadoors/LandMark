@@ -10,10 +10,36 @@
     src: url(../font/Open_Sans/OpenSans-Light.ttf);
     font-family:Open Sans;
 }
+@font-face{
+    src: url(../font/Industry/Industry-Bold.ttf);
+    font-family:Industry-Bold;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Medium.ttf);
+    font-family:Industry-Medium;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Book.ttf);
+    font-family:Industry-Book;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Black.ttf);
+    font-family:Industry-Black;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Demi.ttf);
+    font-family:Industry-Demi;
+}
+html {
+    scroll-behavior: smooth;
+  }
 #home-bg{
     background: url(../images/home-images/home-bg.png) no-repeat;
     background-size: cover;
     /*position: absolute;*/
+}
+body{
+    cursor: pointer;
 }
 #home-bg .layer{
     background-color: rgba(0, 0, 0, 0.7);
@@ -277,7 +303,7 @@ z-index: 0;
     line-height: 54px;
     color: #000000;
     width: 117px;
-    border-bottom: 4px solid #07E3DB;
+   
 }
 #our-work h5{
     font-family: Barlow;
@@ -515,6 +541,17 @@ color: #FFFFFF;
     #footer .icon-bg{
         background-color: white;
         border-radius: 1px;
+        transition: all 0.5s;
+    }
+    #footer .icon-bg:hover{
+        transform: scale(1.2);
+    }
+    .social-media{
+        background: transparent;
+        transition: all .5s;
+    }
+    .social-media:hover{
+        transform: scale(1.9);
     }
     #footer .fa-arrow-up{
         background: #fff;
@@ -538,7 +575,7 @@ color: #FFFFFF;
     #home-bg i{
         margin-left: -52px;
 }
-#who-we-are h2, #shipping h1,#foundation h2,#project h3,#schedule h2 {
+#who-we-are h2, #shipping h1,#foundation h2,#project h3,#schedule h2,#home-bg h5 {
 font-size: 40px;
 }
 .border-right-1{

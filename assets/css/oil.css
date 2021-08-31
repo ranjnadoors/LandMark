@@ -37,7 +37,7 @@ body{
     cursor: pointer;
 }
 #resident-bg{
-    background: url(../images/retail\ \(1\).png) no-repeat;
+    background: url(../images/oil.png) no-repeat;
     background-size: cover;
     
     /*position: absolute;*/
@@ -77,6 +77,7 @@ body{
     line-height: 64px;
     color: #FFFFFF;
 }
+
 p{
     font-family: Open Sans;
     font-style: normal;
@@ -86,145 +87,206 @@ p{
     text-align: justify;
     color: #474747;
 }
-.bottom-left {
-    position: absolute;
-    bottom: 30px;
-    left: 25px;
+/********************home****************/
+/* Style the tab */
+.tab {
+    float: left;
+}
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background: #F7F7F7;
+    border-radius: 2px;
+    color: black;
+    padding: 15px 16px;
+    border-left: 3px solid #07E3DB !important;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+   
+    
+    border-left: none;
+   
   }
   #home h1{
-    font-family: Industry-Demi;
+    font-family: Industry-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+color: #686868;
+text-decoration: 5px underline #07E3DB;
+}
+#home h2{
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 32px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+    
+    border-radius: 2px;
+}
+#home .form-control{
+    border: 0px;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+}
+/* Bottom left text */
+#home .bottom-left {
+    position: absolute;
+    bottom: 372px;
+    left: 42px;
+  }
+  #home h3{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  #home h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  #home h5{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 11px;
     color: #FFFFFF;
     }
-    #home h2{
+    #home h6{
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 6px;
+        line-height: 8px;
         color: #FFFFFF;
-        }
-/**************************services******************/
-#services h1{
+    }
+    #home .bottom-left-2 {
+        position: absolute;
+        bottom: -4px;
+        left: 22px;
+      }
+      #home .img-height{
+          height: 85px;
+          width: 130px;
+      }
+      #why {
+          background: #182431;
+      }      
+  #why h1{
     font-family: Industry-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 70px;
     line-height: 92px;
-    color: #686868;
-    text-decoration: 4px underline #07E3DB;
-}
-#services h3{
-    font-family: Industry-Demi;
+    color: #FFFFFF;
+    }  
+    #why h2{
+        font-family: Industry-Medium;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 51px;
+        color: #FFFFFF;
+        text-decoration: 5px underline #07E3DB;
+        }  
+#why p{
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 31px;
-    color: #030303;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}        
+#why ul{
+    list-style: none;
 }
-#services p{
+#why li a{
     font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
+font-size: 18px;
 line-height: 30px;
-color: #6C6C6C;
+text-align: center;
+padding: 10px 0px;
+color: #FFFFFF;
+text-decoration:  none;
 }
-#services ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-#services li{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 32px;
-    color: #000000;
-}
-#services li::before{
-    content:"";
-    width: 8px;
-    height: 8px;
+#why li::before{
+    content: "";
+    width: 5px;
+    height: 5px;
     margin-right: 5px;
-    border: 3px solid #474747;
+    border: 2px solid #fff;
+   border-radius: 50%;
     display: inline-block;
 }
-/***************************project**********************/
-#project{
-    background: #000000;
-}
-#project h2{
+/*********************safty************/
+#safty h1{
     font-family: Industry-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 70px;
-    
-    color: #EDEDED;
+    line-height: 92px;
+    color: #000000;
+    text-decoration: 5px underline #07E3DB;
 }
-#project h3{
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    color: #FFFFFF;
-    text-decoration:  5px underline #07E3DB;
-}
-/*************************************schedule***********************/
-#schedule{
-    background: url(../images/image\ 31.png) no-repeat;
-    background-size: cover;
-}
-#schedule h2{
-    font-family: Industry-Bold;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 70px;
-   
-    color: #686868;
-}
-#schedule h3{
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    color: #686868;
-    text-decoration:  5px underline #07E3DB;
-}
-#schedule h1{
+#safty h2{
+    background: #07E3DB;
     font-family: Industry-Demi;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 19px;
-    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
 }
-#schedule .addition{
-    background: #07E3DB;
-}
-#schedule p{
+#safty p{
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 31px;
     text-align: justify;
     color: #474747;
 }
-#schedule .stop{
-    background: #EAEAEA;
-}
-#schedule h4{
+#safty h3{
+    background: #eaeaea;
     font-family: Industry-Demi;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 26px;
     color: #000000;
 }
 /*************************footer**********************/
@@ -348,68 +410,37 @@ color: #FFFFFF;
     #resident-bg i{
         margin-left: -52px;
 }
-#services h1, #project h2,#schedule h2{
+#safty h1, #why h1,#schedule h2{
 font-size: 40px;
 }
 .border-right-1{
     border-right: 0px !important;
+}
+#home .bottom-left{
+    bottom: 642px;
 }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    #home .bottom-left{
+        bottom: 690px;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    #home .bottom-left{
+        bottom: 572px;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
+@media only screen and (min-width: 1200px) {
+    #home .bottom-left{
+        bottom: 400px;
+    }
+}
 

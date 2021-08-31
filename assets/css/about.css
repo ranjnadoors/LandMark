@@ -10,6 +10,28 @@
     src: url(../font/Open_Sans/OpenSans-Light.ttf);
     font-family:Open Sans;
 }
+@font-face{
+    src: url(../font/Industry/Industry-Bold.ttf);
+    font-family:Industry-Bold;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Medium.ttf);
+    font-family:Industry-Medium;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Book.ttf);
+    font-family:Industry-Book;
+}
+@font-face{
+    src: url(../font/Industry/Industry-Black.ttf);
+    font-family:Industry-Black;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+cursor: pointer;
+}
 #about-bg{
     background: url(../images/about-images/about-bg.png) no-repeat;
     background-size: cover;
@@ -66,7 +88,7 @@ font-weight: 500;
 font-size: 45px;
 line-height: 48px;
 color: #000000;
-text-decoration: 4px underline #07E3DB;
+
 }
 #who-we-are p{
     font-family: Open Sans;
@@ -271,6 +293,17 @@ color: #FFFFFF;
     #footer .icon-bg{
         background-color: white;
         border-radius: 1px;
+        transition: all 0.5s;
+    }
+    #footer .icon-bg:hover{
+        transform: scale(1.2);
+    }
+    .social-media{
+        background: transparent;
+        transition: all .5s;
+    }
+    .social-media:hover{
+        transform: scale(1.9);
     }
     #footer .fa-arrow-up{
         background: #fff;
