@@ -13,58 +13,147 @@
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.js">
     <link rel="stylesheet" href="assets/css/owl.theme.green.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-    <div class="container-fluid px-0" id="home-bg">
-        <div class="layer">
+    <div class="container-fluid px-0" id="home-bg" data-aos="fade-up" data-aos-anchor-placement="top-right">
+        <div class="layer" data-aos="fade-down" data-aos-anchor-placement="top-right">
             <div class="container">
-                <nav class="navbar navbar-expand-xxl  navbar-dark">
+                <nav class="navbar navbar-expand-xxl  navbar-dark" style="z-index: 99;">
                     <a class="navbar-brand" href="#"><img
                             src="assets/images/home-images/LANDMARK-Logo_Horizontal-FullColor-PNG_BG 1.png"
                             class="img-fluid" alt=""></a>
-                  
-                        <div class="row">
-                            <div class="col-10">
-                                <div class="row">
-                                    <form class="form-inline my-2 my-lg-0">
-                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                            aria-label="Search">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
-                                </form>
+
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="row">
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
                             </div>
-                            <div class="col-2 text-right">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#collapsibleNavbar">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </div>
-                        
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="oil.html">Oil & Gas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="residential-development.html">Residential Development</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="retail.html">Retail/Commercial Development </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="government.html">Government</a>
-                                </li>
-                            </ul>
+                            </form>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button class="navbar-toggler" onclick="openNav()" type="button" id="open"
+                                data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <button class="navbar-toggler" onclick="closeNav()" type="button" id="close"
+                                data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="">X</span>
+                            </button>
+
                         </div>
                 </nav>
-                <!-----------------------end of navbar-------------------------->
+            </div>
+            <div class="conatiner-fluid navigation" id="navbar-nav">
+                <div class="container">
+
+                    <div class="collapse navbar-collapse py-5" id="collapsibleNavbar" style="margin-top: -70px;">
+
+                        <div class="row">
+
+                            <div class="col-6 col-sm-6 col-md-3">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="oil.html">Oil & Gas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="residential-development.html">Residential
+                                            Development</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="retail.html">Retail/Commercial Development </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="government.html">Government</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="oil.html">Oil & Gas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="residential-development.html">Residential
+                                            Development</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="retail.html">Retail/Commercial Development </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="government.html">Government</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="oil.html">Oil & Gas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="residential-development.html">Residential
+                                            Development</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="retail.html">Retail/Commercial Development </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="government.html">Government</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="oil.html">Oil & Gas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="residential-development.html">Residential
+                                            Development</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="retail.html">Retail/Commercial Development </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="government.html">Government</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-----------------------end of navbar-------------------------->
+            <div class="container">
                 <div class="row mt-5">
                     <div class="col-lg-6">
                         <div id="landmark">
@@ -74,7 +163,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5 px-md-0 px-3">
+                    <div class="mt-5 px-md-0 px-3"  data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="500">
                         <p>Landmark EPC is a highly diversified, multi-disciplinary design and construction firm in
                             Loveland, CO made up of Civil and Structural Engineers, Planners, Landscape Architects,
                             Surveyors, Geotechnical Engineers, and construction experts.</p>
@@ -86,22 +176,9 @@
                 <div class="row mt-5">
 
                     <div class="tab" role="tabpanel">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active px-3 py-3"><a href="#Government" aria-controls="home"
-                                    role="tab" data-toggle="tab">Government</a></li>
-                            <li role="presentation" class="px-3 py-3"><a href="#Oil-Gas" aria-controls="profile"
-                                    role="tab" data-toggle="tab">Oil & Gas</a></li>
-                            <li role="presentation" class="px-3 py-3"><a href="#Retail/Commercial Development"
-                                    aria-controls="messages" role="tab" data-toggle="tab">Retail/Commercial
-                                    Development</a></li>
-                            <li role="presentation" class="px-3 py-3"><a href="#Residential-Development"
-                                    aria-controls="messages" role="tab" data-toggle="tab">Residential Development</a>
-                            </li>
-                        </ul>
-                        <!-- Tab panes -->
-                        <div class="tab-content tabs">
-                            <div role="tabpanel" class="tab-pane fade in active " id="Government">
+                         <!-- Tab panes -->
+                         <div class="tab-content tabs">
+                            <div role="tabpanel" class="tab-pane fade active show " id="Government">
                                 <h3>Section 1</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a
                                     ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor.
@@ -126,12 +203,29 @@
                                     Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
                             </div>
                         </div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active px-3 py-3"><a href="#Government" aria-controls="home"
+                                    role="tab" data-toggle="tab">Government</a></li>
+                            <li role="presentation" class="px-3 py-3"><a href="#Oil-Gas" aria-controls="profile"
+                                    role="tab" data-toggle="tab">Oil & Gas</a></li>
+                            <li role="presentation" class="px-3 py-3"><a href="#Retail/Commercial Development"
+                                    aria-controls="messages" role="tab" data-toggle="tab">Retail/Commercial
+                                    Development</a></li>
+                            <li role="presentation" class="px-3 py-3"><a href="#Residential-Development"
+                                    aria-controls="messages" role="tab" data-toggle="tab">Residential Development</a>
+                            </li>
+                        </ul>
+                       
                     </div>
                 </div>
                 <!---------------------------end of tabs----------------->
             </div>
+
         </div>
+
     </div>
+
     <!--------------------------end of home page--------------->
     <div class="container-fluid mt-5 py-5" id="call-us">
         <div class="container">
@@ -179,7 +273,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4 my-3 text-md-left text-center">
+                <div class="col-md-4 my-3 text-md-left text-center" data-aos="zoom-in">
                     <div><img src="assets/images/home-images/crestone.png" class="img-fluid" alt="">
                         <span class="bottom-left px-lg-0 px-4">
                             <h5>Crestone Peak Resources</h5>
@@ -187,47 +281,47 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-md-4 my-3 text-md-left text-center">
+                <div class="col-md-4 my-3 text-md-left text-center" data-aos="zoom-in">
                     <div><img src="assets/images/home-images/chesa.png" class="img-fluid" alt="">
                         <span class="bottom-left  px-lg-0 px-3">
                             <h5>Chesapeake Energy</h5>
-                            <h6  class="px-md-0 px-3">Project Location: Douglas, WY 2019
+                            <h6 class="px-md-0 px-3">Project Location: Douglas, WY 2019
                             </h6>
                         </span>
                     </div>
                 </div>
-                <div class="col-md-4 my-3 text-md-left text-center">
+                <div class="col-md-4 my-3 text-md-left text-center" data-aos="zoom-in">
                     <div><img src="assets/images/home-images/oil.png" class="img-fluid" alt="">
                         <span class="bottom-left  px-lg-0 px-3">
                             <h5>Caerus Oil and Gas</h5>
-                            <h6  class="px-md-0 px-3">Project Location: Parachute, CO 2018-19</h6>
+                            <h6 class="px-md-0 px-3">Project Location: Parachute, CO 2018-19</h6>
                         </span>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center my-md-5">
-                <div class="col-md-4 my-3 text-md-left text-center">
+                <div class="col-md-4 my-3 text-md-left text-center" data-aos="zoom-in">
                     <div><img src="assets/images/home-images/solar.png" class="img-fluid" alt="">
                         <span class="bottom-left  px-lg-0 px-3">
                             <h5>CSU-Solar Farms</h5>
-                            <h6  class="px-md-0 px-3">COLORADO SPRINGS, COLORADOx</h6>
+                            <h6 class="px-md-0 px-3">COLORADO SPRINGS, COLORADOx</h6>
                         </span>
                     </div>
                 </div>
-                <div class="col-md-4 my-3 text-md-left text-center">
+                <div class="col-md-4 my-3 text-md-left text-center" data-aos="zoom-in">
                     <div><img src="assets/images/home-images/rocky.png" class="img-fluid" alt="">
                         <span class="bottom-left  px-lg-0 px-3">
                             <h5>Rocky Mountain Village</h5>
-                            <h6  class="px-md-0 px-3">COLORADO SPRINGS, COLORADO
+                            <h6 class="px-md-0 px-3">COLORADO SPRINGS, COLORADO
                             </h6>
                         </span>
                     </div>
                 </div>
-                <div class="col-md-4 my-3 text-md-left text-center">
+                <div class="col-md-4 my-3 text-md-left text-center" data-aos="zoom-in">
                     <div><img src="assets/images/home-images/hover.png" class="img-fluid" alt="">
                         <span class="bottom-left  px-lg-0 px-3">
                             <h5>Hover Town Center</h5>
-                            <h6  class="px-md-0 px-3">COLORADO SPRINGS, COLORADO</h6>
+                            <h6 class="px-md-0 px-3">COLORADO SPRINGS, COLORADO</h6>
                         </span>
                     </div>
                 </div>
@@ -310,8 +404,10 @@
                     <div>
                         <ul class="">
                             <h4>Navigation</h4>
-                            <li class="mt-4"><a href="retail.html" class="text-white">Retail/Commercial Development</a></li>
-                            <li class="my-3"><a href="residential-development.html" class="text-white">Residential Development</li></a>
+                            <li class="mt-4"><a href="retail.html" class="text-white">Retail/Commercial Development</a>
+                            </li>
+                            <li class="my-3"><a href="residential-development.html" class="text-white">Residential
+                                    Development</li></a>
                             <li class="my-3"> <a href="government.html" class="text-white">Government</li></a>
                             <li class="my-3"><a href="#" class="text-white">Oil & Gas</li></a>
                         </ul>
@@ -324,14 +420,16 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col">
-                            <img src="assets/images/home-images/facebook.png" class="img-fluid mx-3  social-media" alt="">
+                            <img src="assets/images/home-images/facebook.png" class="img-fluid mx-3  social-media"
+                                alt="">
                             <i class="fab fa-instagram  mx-3  social-media" style="color: white;"></i>
-                            <img src="assets/images/home-images/twitter.png" class="img-fluid  mx-3  social-media" alt=""></div>
+                            <img src="assets/images/home-images/twitter.png" class="img-fluid  mx-3  social-media"
+                                alt=""></div>
 
                     </div>
                 </div>
                 <div class="row border-bottom w-100 mt-4">
-                    <div class="col-md-4  border-right-1" >
+                    <div class="col-md-4  border-right-1">
                         <div class="row my-md-0 my-3">
                             <div class="col-lg-2 col-4 text-md-left text-center">
                                 <img src="assets/images/home-images/call.png" class="img-fluid" alt=""></div>
@@ -362,7 +460,8 @@
                     </div>
                 </div>
                 <div class="row w-100">
-                    <div class=" up-arrow"><a href="#home-bg"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+                    <div class=" up-arrow"><a href="#home-bg"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                    </div>
                 </div>
                 <div class="row w-100">
                     <div class="col-md-8">
@@ -387,7 +486,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </body>
 <script src="assets/bootstrap/js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -396,5 +495,47 @@
 <script src="assets//bootstrap/js/jquery-ui.js"></script>
 <script src="assets/js/main.js"> </script>
 <Script src="assets/js/owl.carousel.min.js"></Script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    window.requestAnimationFrame(function (time) {
+                    $('#navbar-nav').addClass("navigation");
+                });
+    function openNav() {
+        
+        $('#open').click(function () {
+            console.log("click");
+            $('#navbar-nav').removeClass("navigation");
+            window.requestAnimationFrame(function (time) {
+                window.requestAnimationFrame(function (time) {
+                    $('#navbar-nav').addClass("navigation");
+                });
+            });
+
+        });
+
+        document.getElementById("close").style.display = "block";
+        document.getElementById("open").style.display = "none";
+
+    }
+    function closeNav() {
+        $('#close').click(function () {
+            console.log("click");
+            $('#navbar-nav').removeClass("navigation");
+            window.requestAnimationFrame(function (time) {
+                window.requestAnimationFrame(function (time) {
+                    $('#navbar-nav').removeClass("navigation");
+                });
+            });
+
+        });
+        document.getElementById('navbar-nav').className = 'navigation';
+        document.getElementById("close").style.display = "none";
+        document.getElementById("open").style.display = "block"
+    }
+
+</script>
 
 </html>

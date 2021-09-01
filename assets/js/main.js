@@ -24,3 +24,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
   });
 });
+
+$(document).ready(function() {
+
+  
+  $('#list').click(function (event) {
+    event.preventDefault();
+    console.log("I am in 1  ")
+    $('#products .item').addClass('list-group-item');
+    $(".list-show-grid-hide").show();
+    $(".inner").addClass('list-h6');
+    $(".inner").removeClass('grid-h6');
+    $()
+  });
+})
